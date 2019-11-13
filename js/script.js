@@ -14,8 +14,29 @@ jQuery(document).ready(function($){
       $('.login').removeClass('signup_view');
     }
     else {
-      
+
     }
   });
+
+  jQuery(".add_product_btn").click(function(){
+    jQuery("#addProductModal").modal("show");
+  });
+
+  function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $("#select-image").css("background-image", "url(" + e.target.result + ")");
+                $("#select-image .select_image_overlay").addClass("remove_overlay");
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#imgInp").change(function(){
+        readURL(this);
+    });
 
 });
