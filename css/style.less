@@ -587,485 +587,485 @@ body {
   }
 }
 
-section.login {
-  background: #F7F7F7;
-  .main_container {
-    width: 100%;
-    .login_container {
-      opacity: 1;
-      .transform (translateX(0));
-      .transition (all, 0.5s, ease);
-      pointer-events: auto;
-      .login_title {
-        font-size: 20px;
-        color: #73879C;
-      }
-      .login_form {
-        form {
-          .form-group {
-            input[type="email"], input[type="password"] {
-              position: relative;
-              background-color: @white;
-              padding: 22px 15px 22px 20px;
-              box-shadow: none;
-              border-radius: 0;
-              &::placeholder {
-
-              }
-              &:focus {
+.main_body {
+  section.login {
+    background: #F7F7F7;
+    .main_container {
+      width: 100%;
+      .login_container {
+        opacity: 1;
+        .transform (translateX(0));
+        .transition (all, 0.5s, ease);
+        pointer-events: auto;
+        .login_title {
+          font-size: 20px;
+          color: #73879C;
+        }
+        .login_form {
+          form {
+            .form-group {
+              input[type="email"], input[type="password"] {
+                position: relative;
                 background-color: @white;
+                padding: 22px 15px 22px 20px;
+                box-shadow: none;
+                border-radius: 0;
+                &::placeholder {
+
+                }
+                &:focus {
+                  background-color: @white;
+                }
+              }
+              &.form-check {
+                color: #73879C;
+                input[type="checkbox"] {
+                  margin-top: 0.4rem;
+                }
+                .forgot_password {
+                  color: #178ED2;
+                }
               }
             }
-            &.form-check {
-              color: #73879C;
-              input[type="checkbox"] {
-                margin-top: 0.4rem;
-              }
-              .forgot_password {
+            .submit_btn {
+              border-radius: 0;
+              background-color: #5CC7F8;
+              border-color: #5CC7F8;
+              padding: 10px 12px;
+              box-shadow: none;
+              outline: none;
+            }
+          }
+        }
+        .signup_link {
+          .link {
+            color: #73879C;
+            a {
+              cursor: pointer;
+              .transition (all, 0.3s, ease);
+              &:hover {
                 color: #178ED2;
               }
             }
           }
-          .submit_btn {
-            border-radius: 0;
-            background-color: #5CC7F8;
-            border-color: #5CC7F8;
-            padding: 10px 12px;
-            box-shadow: none;
-            outline: none;
-          }
         }
-      }
-      .signup_link {
-        .link {
-          color: #73879C;
-          a {
-            cursor: pointer;
-            .transition (all, 0.3s, ease);
-            &:hover {
-              color: #178ED2;
-            }
-          }
-        }
-      }
-      .login_or_break {
-        position: relative;
-        .login_text_or {
-          width: 40px;
-          font-size: 18px;
-          z-index: 1;
-          background-color: #F7F7F7;
-        }
-        &::before {
-          content: '';
-          position: absolute;
-          height: 1px;
-          width: 100%;
-          background-color: #CED4DA;
-          top: 50%;
-          left: 0;
-        }
-      }
-      .continue_with_facebook, .continue_with_instagram {
-        .btn {
+        .login_or_break {
           position: relative;
-          color: #666666;
-          border-radius: 0;
-          background-color: @white;
-          border-color: #CED4DA;
-          padding: 10px 12px;
-          box-shadow: none;
-          outline: none;
+          .login_text_or {
+            width: 40px;
+            font-size: 18px;
+            z-index: 1;
+            background-color: #F7F7F7;
+          }
           &::before {
             content: '';
             position: absolute;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            width: 20px;
-            height: 20px;
+            height: 1px;
+            width: 100%;
+            background-color: #CED4DA;
             top: 50%;
-            left: 4%;
-            .transform (translateY(-50%));
+            left: 0;
           }
         }
-      }
-      .continue_with_facebook {
-        .btn {
-          &::before {
-            background-image: url('../images/google-icon.svg');
-          }
-        }
-      }
-      .continue_with_instagram {
-        .btn {
-          &::before {
-            background-image: url('../images/instagram-icon.svg');
-          }
-        }
-      }
-    }
-    .signup_container {
-      opacity: 0;
-      .transform (translateX(-400px));
-      pointer-events: none;
-      .transition (all, 0.5s, ease);
-      .signup_title {
-        font-size: 20px;
-        color: #73879C;
-      }
-      .signup_form {
-        form {
-          .form-group {
-            input[type="text"], [type="email"], input[type="password"] {
-              position: relative;
-              background-color: @white;
-              padding: 22px 15px 22px 20px;
-              box-shadow: none;
-              border-radius: 0;
-              &::placeholder {
-
-              }
-              &:focus {
-                background-color: @white;
-              }
-            }
-          }
-          .submit_btn {
+        .continue_with_facebook, .continue_with_instagram {
+          .btn {
+            position: relative;
+            color: #666666;
             border-radius: 0;
-            background-color: #5CC7F8;
-            border-color: #5CC7F8;
+            background-color: @white;
+            border-color: #CED4DA;
             padding: 10px 12px;
             box-shadow: none;
             outline: none;
+            &::before {
+              content: '';
+              position: absolute;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 20px;
+              height: 20px;
+              top: 50%;
+              left: 4%;
+              .transform (translateY(-50%));
+            }
           }
         }
-      }
-      .login_link {
-        .link {
-          color: #73879C;
-          a {
-            cursor: pointer;
-            .transition (all, 0.3s, ease);
-            &:hover {
-              color: #178ED2;
+        .continue_with_facebook {
+          .btn {
+            &::before {
+              background-image: url('../images/google-icon.svg');
+            }
+          }
+        }
+        .continue_with_instagram {
+          .btn {
+            &::before {
+              background-image: url('../images/instagram-icon.svg');
             }
           }
         }
       }
-      .login_or_break {
-        position: relative;
-        .login_text_or {
-          width: 40px;
-          font-size: 18px;
-          z-index: 1;
-          background-color: #F7F7F7;
-        }
-        &::before {
-          content: '';
-          position: absolute;
-          height: 1px;
-          width: 100%;
-          background-color: #CED4DA;
-          top: 50%;
-          left: 0;
-        }
-      }
-      .continue_with_facebook, .continue_with_instagram {
-        .btn {
-          position: relative;
-          color: #666666;
-          border-radius: 0;
-          background-color: @white;
-          border-color: #CED4DA;
-          padding: 10px 12px;
-          box-shadow: none;
-          outline: none;
-          &::before {
-            content: '';
-            position: absolute;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            width: 20px;
-            height: 20px;
-            top: 50%;
-            left: 4%;
-            .transform (translateY(-50%));
-          }
-        }
-      }
-      .continue_with_facebook {
-        .btn {
-          &::before {
-            background-image: url('../images/google-icon.svg');
-          }
-        }
-      }
-      .continue_with_instagram {
-        .btn {
-          &::before {
-            background-image: url('../images/instagram-icon.svg');
-          }
-        }
-      }
-    }
-    @media (min-width: 768px) {
-      width: 50%;
-    }
-    @media (min-width: 992px) {
-      width: 35%;
-    }
-  }
-  &.signup_view {
-    .main_container {
-      .login_container {
+      .signup_container {
         opacity: 0;
         .transform (translateX(-400px));
         pointer-events: none;
-      }
-      .signup_container {
-        opacity: 1;
-        .transform (translateX(0px));
-        pointer-events: auto;
-      }
-    }
-  }
-}
+        .transition (all, 0.5s, ease);
+        .signup_title {
+          font-size: 20px;
+          color: #73879C;
+        }
+        .signup_form {
+          form {
+            .form-group {
+              input[type="text"], [type="email"], input[type="password"] {
+                position: relative;
+                background-color: @white;
+                padding: 22px 15px 22px 20px;
+                box-shadow: none;
+                border-radius: 0;
+                &::placeholder {
 
-section.products {
-  // background-color: #F7F7F7;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  .products_outer {
-    width: 100%;
-    .products_functions {
-      .add_product {
-        a {
-          position: relative;
-          color: #2BA2F8;
-          cursor: pointer;
-          background-color: @transparent;
-          font-size: 14px;
-          border: 2px solid #2BA2F8;
-          padding: 10px 12px;
-          box-shadow: none;
-          outline: none;
-          @media (min-width: 768px) {
-            font-size: 15px;
-          }
-          @media (min-width: 992px) {
-            font-size: 16px;
+                }
+                &:focus {
+                  background-color: @white;
+                }
+              }
+            }
+            .submit_btn {
+              border-radius: 0;
+              background-color: #5CC7F8;
+              border-color: #5CC7F8;
+              padding: 10px 12px;
+              box-shadow: none;
+              outline: none;
+            }
           }
         }
-      }
-    }
-    .product_list {
-      ul {
-        li {
-          border: none;
-          border-radius: 10px;
-          .box-shadow (0px 6px 9px rgba(0, 0, 0, 0.05));
-          .item_outer {
-            position: relative;
-            .item_image {
-              width: 18%;
-              .product_image {
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                width: 100%;
-                height: 50px;
-                border-radius: 10px;
-                @media (min-width: 768px) {
-                  height: 100px;
-                }
-                @media (min-width: 992px) {
-                  height: 110px;
-                }
-              }
-            }
-            .item_content {
-              width: 80%;
-              .content_outer {
-                .content_left {
-                  width: 80%;
-                  .product_name {
-                    font-size: 14px;
-                    @media (min-width: 768px) {
-                      font-size: 16px;
-                    }
-                    @media (min-width: 992px) {
-                      font-size: 18px;
-                    }
-                  }
-                  .available {
-                    font-size: 14px;
-                    .available_title {
-
-                    }
-                    .available_amount {
-                      color: #2BA2F8;
-                    }
-                    @media (min-width: 768px) {
-                      font-size: 15px;
-                    }
-                    @media (min-width: 992px) {
-                      font-size: 16px;
-                    }
-                  }
-                }
-                .content_right {
-                  width: 20%;
-                  .product_price {
-                    font-size: 16px;
-                    @media (min-width: 768px) {
-                      font-size: 18px;
-                    }
-                    @media (min-width: 992px) {
-                      font-size: 20px;
-                    }
-                  }
-                }
-              }
-            }
-            .edit_product_btn {
-              position: absolute;
-              width: 35px;
-              height: 35px;
-              bottom: 0px;
-              right: 0px;
+        .login_link {
+          .link {
+            color: #73879C;
+            a {
               cursor: pointer;
-              &::before {
-                content: '';
-                position: absolute;
-                background-image: url('../images/edit.svg');
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 25px;
-                height: 25px;
-                left: 50%;
-                top: 50%;
-                .transform (translate(-50%, -50%));
+              .transition (all, 0.3s, ease);
+              &:hover {
+                color: #178ED2;
               }
             }
           }
         }
-      }
-    }
-    @media (min-width: 768px) {
-      width: 80%;
-    }
-    @media (min-width: 992px) {
-      width: 60%;
-    }
-  }
-}
-
-.modal_add_product {
-  .modal-dialog {
-    .modal-content {
-      border-radius: 10px;
-      border: none;
-      .modal-body {
-        border-radius: 10px;
-        background-color: #F7F7F7;
-        .content_outer {
-          .select_product_image_container {
-            width: 50%;
-            .select_product_image {
-              position: relative;
+        .login_or_break {
+          position: relative;
+          .login_text_or {
+            width: 40px;
+            font-size: 18px;
+            z-index: 1;
+            background-color: #F7F7F7;
+          }
+          &::before {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background-color: #CED4DA;
+            top: 50%;
+            left: 0;
+          }
+        }
+        .continue_with_facebook, .continue_with_instagram {
+          .btn {
+            position: relative;
+            color: #666666;
+            border-radius: 0;
+            background-color: @white;
+            border-color: #CED4DA;
+            padding: 10px 12px;
+            box-shadow: none;
+            outline: none;
+            &::before {
+              content: '';
+              position: absolute;
               background-position: center center;
               background-repeat: no-repeat;
-              background-size: cover;
-              height: 140px;
-              border-radius: 5px;
-              .select_image_overlay {
-                position: absolute;
-                background-color: #e2e3e3;
-                height: 100%;
-                width: 100%;
-                top: 0;
-                left: 0;
-                border-radius: 5px;
-                form {
+              background-size: contain;
+              width: 20px;
+              height: 20px;
+              top: 50%;
+              left: 4%;
+              .transform (translateY(-50%));
+            }
+          }
+        }
+        .continue_with_facebook {
+          .btn {
+            &::before {
+              background-image: url('../images/google-icon.svg');
+            }
+          }
+        }
+        .continue_with_instagram {
+          .btn {
+            &::before {
+              background-image: url('../images/instagram-icon.svg');
+            }
+          }
+        }
+      }
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+      @media (min-width: 992px) {
+        width: 35%;
+      }
+    }
+    &.signup_view {
+      .main_container {
+        .login_container {
+          opacity: 0;
+          .transform (translateX(-400px));
+          pointer-events: none;
+        }
+        .signup_container {
+          opacity: 1;
+          .transform (translateX(0px));
+          pointer-events: auto;
+        }
+      }
+    }
+  }
+  section.products {
+    // background-color: #F7F7F7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .products_outer {
+      width: 100%;
+      .products_functions {
+        .add_product {
+          a {
+            position: relative;
+            color: #2BA2F8;
+            cursor: pointer;
+            background-color: @transparent;
+            font-size: 14px;
+            border: 2px solid #2BA2F8;
+            padding: 10px 12px;
+            box-shadow: none;
+            outline: none;
+            @media (min-width: 768px) {
+              font-size: 15px;
+            }
+            @media (min-width: 992px) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .product_list {
+        ul {
+          li {
+            border: none;
+            border-radius: 10px;
+            .box-shadow (0px 6px 9px rgba(0, 0, 0, 0.05));
+            .item_outer {
+              position: relative;
+              .item_image {
+                width: 18%;
+                .product_image {
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
                   width: 100%;
-                  height: 100%;
-                  .form-group {
-                    width: 100%;
-                    height: 100%;
-                    overflow: hidden;
-                    border: 2px dashed @white;
-                    border-radius: 5px;
-                    input[type="file"] {
-                      width: 100%;
-                      height: 100%;
-                      opacity: 0;
-                      cursor: pointer;
-                    }
-                    &::before {
-                      content: '';
-                      position: absolute;
-                      background-image: url('../images/plus_sign.svg');
-                      background-position: center center;
-                      background-repeat: no-repeat;
-                      background-size: contain;
-                      width: 30px;
-                      height: 30px;
-                      top: 50%;
-                      left: 50%;
-                      .transform (translate(-50%, -50%));
-                    }
+                  height: 50px;
+                  border-radius: 10px;
+                  @media (min-width: 768px) {
+                    height: 100px;
+                  }
+                  @media (min-width: 992px) {
+                    height: 110px;
                   }
                 }
-                &.remove_overlay {
-                  background-color: @transparent;
-                  form {
-                    .form-group {
-                      border: none;
-                      &::before {
-                        opacity: 0;
+              }
+              .item_content {
+                width: 80%;
+                .content_outer {
+                  .content_left {
+                    width: 80%;
+                    .product_name {
+                      font-size: 14px;
+                      @media (min-width: 768px) {
+                        font-size: 16px;
+                      }
+                      @media (min-width: 992px) {
+                        font-size: 18px;
+                      }
+                    }
+                    .available {
+                      font-size: 14px;
+                      .available_title {
+
+                      }
+                      .available_amount {
+                        color: #2BA2F8;
+                      }
+                      @media (min-width: 768px) {
+                        font-size: 15px;
+                      }
+                      @media (min-width: 992px) {
+                        font-size: 16px;
+                      }
+                    }
+                  }
+                  .content_right {
+                    width: 20%;
+                    .product_price {
+                      font-size: 16px;
+                      @media (min-width: 768px) {
+                        font-size: 18px;
+                      }
+                      @media (min-width: 992px) {
+                        font-size: 20px;
                       }
                     }
                   }
                 }
               }
-            }
-            @media (min-width: 768px) {
-              width: 30%;
+              .edit_product_btn {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                bottom: 0px;
+                right: 0px;
+                cursor: pointer;
+                &::before {
+                  content: '';
+                  position: absolute;
+                  background-image: url('../images/edit.svg');
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  width: 25px;
+                  height: 25px;
+                  left: 50%;
+                  top: 50%;
+                  .transform (translate(-50%, -50%));
+                }
+              }
             }
           }
-          .product_details_container {
-            width: 100%;
-            form {
-              .form-group {
-                input[type="text"] {
-                  border: none;
+        }
+      }
+      @media (min-width: 768px) {
+        width: 80%;
+      }
+      @media (min-width: 992px) {
+        width: 60%;
+      }
+    }
+  }
+  .modal_add_product {
+    .modal-dialog {
+      .modal-content {
+        border-radius: 10px;
+        border: none;
+        .modal-body {
+          border-radius: 10px;
+          background-color: #F7F7F7;
+          .content_outer {
+            .select_product_image_container {
+              width: 50%;
+              .select_product_image {
+                position: relative;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 140px;
+                border-radius: 5px;
+                .select_image_overlay {
+                  position: absolute;
+                  background-color: #e2e3e3;
+                  height: 100%;
+                  width: 100%;
+                  top: 0;
+                  left: 0;
                   border-radius: 5px;
-                  box-shadow: none;
-                  &::placeholder {
-                    color: #c2c2c2;
+                  form {
+                    width: 100%;
+                    height: 100%;
+                    .form-group {
+                      width: 100%;
+                      height: 100%;
+                      overflow: hidden;
+                      border: 2px dashed @white;
+                      border-radius: 5px;
+                      input[type="file"] {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        cursor: pointer;
+                      }
+                      &::before {
+                        content: '';
+                        position: absolute;
+                        background-image: url('../images/plus_sign.svg');
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        width: 30px;
+                        height: 30px;
+                        top: 50%;
+                        left: 50%;
+                        .transform (translate(-50%, -50%));
+                      }
+                    }
+                  }
+                  &.remove_overlay {
+                    background-color: @transparent;
+                    form {
+                      .form-group {
+                        border: none;
+                        &::before {
+                          opacity: 0;
+                        }
+                      }
+                    }
                   }
                 }
               }
-              .save_button {
-                border-radius: 5px;
-                background-color: #5CC7F8;
-                border-color: #5CC7F8;
-                padding: 10px 30px;
-                box-shadow: none;
-                outline: none;
+              @media (min-width: 768px) {
+                width: 30%;
               }
             }
-            @media (min-width: 768px) {
-              width: 68%;
+            .product_details_container {
+              width: 100%;
+              form {
+                .form-group {
+                  input[type="text"] {
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: none;
+                    &::placeholder {
+                      color: #c2c2c2;
+                    }
+                  }
+                }
+                .save_button {
+                  border-radius: 5px;
+                  background-color: #5CC7F8;
+                  border-color: #5CC7F8;
+                  padding: 10px 30px;
+                  box-shadow: none;
+                  outline: none;
+                }
+              }
+              @media (min-width: 768px) {
+                width: 68%;
+              }
             }
-          }
-          .modal_close_btn {
-            top: 10px;
-            right: 20px;
-            cursor: pointer;
+            .modal_close_btn {
+              top: 10px;
+              right: 20px;
+              cursor: pointer;
+            }
           }
         }
       }
