@@ -38,277 +38,42 @@
               <div class="accordion side_menu" id="accordion">
                 <div class="card">
                   <div class="card-header" id="headingOne">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                    <a class="card-link menu_item position-relative mb-2" href="#">
                       <span class="menu_icon home_icon d-inline-block position-absolute"></span>
                       <span class="menu_name">Home</span>
                     </a>
                   </div>
-                  <div class="custom">
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="headingTwo">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseTwo" aria-expanded="false">
+                    <a class="card-link menu_item position-relative mb-2" href="#">
                       <span class="menu_icon forms_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Forms</span>
+                      <span class="menu_name">Products</span>
                     </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="headingThree">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseThree" aria-expanded="false">
+                    <a class="card-link menu_item position-relative mb-2" href="#">
                       <span class="menu_icon ui_elements_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">UI Elements</span>
+                      <span class="menu_name">Lists</span>
                     </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="headingFour">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseFour" aria-expanded="false">
+                    <a class="card-link menu_item position-relative mb-2" href="#">
                       <span class="menu_icon tables_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Tables</span>
+                      <span class="menu_name">Posts</span>
                     </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="headingFive">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseFive" aria-expanded="false">
+                    <a class="card-link menu_item position-relative mb-2" href="#">
                       <span class="menu_icon data_presentation_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Data Presentation</span>
+                      <span class="menu_name">Settings</span>
                     </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingSix">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseSix" aria-expanded="false">
-                      <span class="menu_icon layout_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Layouts</span>
-                    </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="menu_section">
-              <div class="title text-uppercase">live on</div>
-              <div class="accordion side_menu" id="accordion2">
-                <div class="card">
-                  <div class="card-header" id="headingSeven">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseSeven" aria-expanded="false">
-                      <span class="menu_icon additional_pages_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Additional Pages</span>
-                    </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingEight">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseEight" aria-expanded="false">
-                      <span class="menu_icon extras_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Extras</span>
-                    </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingNine">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseNine" aria-expanded="false">
-                      <span class="menu_icon multilevel_menu_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Multilevel Menu</span>
-                    </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion2">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingTen">
-                    <a class="card-link menu_item position-relative mb-2" data-toggle="collapse" href="#collapseTen" aria-expanded="false">
-                      <span class="menu_icon landing_page_icon d-inline-block position-absolute"></span>
-                      <span class="menu_name">Landing Page</span>
-                    </a>
-                  </div>
-                  <div class="custom">
-                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion2">
-                      <div class="card-body">
-                        <div class="child_menu_container">
-                          <ul class="child_menu">
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard1</a>
-                            </li>
-                            <li>
-                              <a class="text-capitalize" href="#">dashboard2</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
