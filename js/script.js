@@ -22,6 +22,10 @@ jQuery(document).ready(function($){
     jQuery("#addProductModal").modal("show");
   });
 
+  jQuery(".edit_product_btn").click(function(){
+    jQuery("#updateProductModal").modal("show");
+  });
+
   function readURL(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();

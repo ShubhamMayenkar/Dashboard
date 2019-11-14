@@ -47,6 +47,7 @@
                       </div>
                     </div>
                   </div>
+                  <a class="btn edit_product_btn"></a>
                 </div>
               </li>
               <li class="list-group-item my-2 p-3">
@@ -72,6 +73,7 @@
                       </div>
                     </div>
                   </div>
+                  <a class="btn edit_product_btn"></a>
                 </div>
               </li>
             </ul>
@@ -86,8 +88,8 @@
         <div class="modal-content">
           <!-- Modal body -->
           <div class="modal-body position-relative">
-            <div class="content_outer d-flex flex-column flex-md-row justify-content-between py-4">
-              <div class="select_product_image_container mx-auto mx-md-0">
+            <div class="content_outer d-flex flex-column justify-content-between py-4">
+              <div class="select_product_image_container mx-auto">
                 <div class="select_product_image" id="select-image">
                   <div class="select_image_overlay">
                     <form class="p-2">
@@ -99,21 +101,70 @@
                   </div>
                 </div>
               </div>
-              <div class="product_details_container text-center text-md-left mt-3 mt-md-0">
+              <div class="product_details_container text-center mt-3 mx-auto">
                 <form>
                   <div class="form-group">
                     <!-- <label for="inputAddress">Name</label> -->
                     <input type="text" class="form-control" id="inputName" placeholder="Name">
                   </div>
-                  <div class="form-group">
-                    <!-- <label for="inputEmail4">Stock</label> -->
-                    <input type="text" class="form-control" id="inputStock" placeholder="Stock">
-                  </div>
-                  <div class="form-group">
-                    <!-- <label for="inputPassword4">Price</label> -->
-                    <input type="text" class="form-control" id="inputPrice" placeholder="Price">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <!-- <label for="inputEmail4">Stock</label> -->
+                      <input type="text" class="form-control" id="inputStock" placeholder="Quantity">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <!-- <label for="inputPassword4">Price</label> -->
+                      <input type="text" class="form-control" id="inputPrice" placeholder="Price">
+                    </div>
                   </div>
                   <button type="submit" class="save_button btn btn-primary">Save</button>
+                </form>
+              </div>
+              <div class="modal_close_btn position-absolute" data-dismiss="modal">
+                <img src="images/close.svg" width="15" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal_custom modal_add_product modal fade" id="updateProductModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body position-relative">
+            <div class="content_outer d-flex flex-column justify-content-between py-4">
+              <div class="select_product_image_container mx-auto">
+                <div class="select_product_image" id="select-image">
+                  <div class="select_image_overlay">
+                    <form class="p-2">
+                      <div class="form-group">
+                        <!-- <label for="exampleFormControlFile1">Example file input</label> -->
+                        <input type="file" class="select_image" id="imgInp">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="product_details_container text-center mt-3 mx-auto">
+                <form>
+                  <div class="form-group">
+                    <!-- <label for="inputAddress">Name</label> -->
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <!-- <label for="inputEmail4">Stock</label> -->
+                      <input type="text" class="form-control" id="inputStock" placeholder="Quantity">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <!-- <label for="inputPassword4">Price</label> -->
+                      <input type="text" class="form-control" id="inputPrice" placeholder="Price">
+                    </div>
+                  </div>
+                  <button type="submit" class="save_button btn btn-primary">Update</button>
                 </form>
               </div>
               <div class="modal_close_btn position-absolute" data-dismiss="modal">
